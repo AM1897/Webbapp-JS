@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    max-width: 100%;
+    background-color: wheat;
+    margin: auto;
+    padding: 1em;
+}
+
+.container {
+    background-color: coral;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 2em;
+}
+.grid-item{
+    text-align: left;
+    font-size: xxx-large;
+    font-family: "Brush Script MT";
+}
+.img{
+    width: 13%;
+}
+
+.dropdown  {
+    color: salmon;
+    font-size: large;
+}
+.dropdown a:hover {
+    background-color: chocolate;
+}
+.dropdown-button:hover, .dropdown-button:focus{
+    background-color: wheat;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: wheat;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+nav {
+    background-color: salmon;
+    border: 1px solid black;
+}
+main {
+    background-color: coral;
+    text-align: center;
+    border: 1px solid black;
+}
+img {
+    width: 100%;
+}
+.album{
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1em;
+    row-gap: 3em;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin: 1.5em;
+
+}
+#allAlbums {
+    gap: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+
+}
+.show{
+    display: block;
+}
+
+.cartSumQuantityShipping{
+    background-color: snow;
+}
+
+.imgAlbumCart{
+    width: 25%;
+}

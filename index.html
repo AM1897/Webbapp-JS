@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaxDan</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/card.css">
+</head>
+<body>
+
+<header class="container">
+    <section>
+        <article class="grid-item">MaxDan</article>
+    </section>
+    <section>
+        <label id="search">Sök:<input type='text' value="Sök"></label>
+    </section>
+    <section>
+
+        <div id="dropdown-content">
+            <div onclick="openMenu()">
+                <img src="img/19-197737_shopping-cart-shop-basket-buy-check-out-checkout.png" alt="kundkorg"
+                     class="img"/></div>
+            <button class="dropdown-button" onclick="openMenu()">Kundkorg
+            </button>
+            <div id="dropdown" class="dropdown-content">
+                <p>Kundvagn</p>
+                <section>
+                    <article id="allAddedAlbums"></article>
+                    <article id="totalSumOfAddedAlbums"></article>
+                    <article id="totalQuantityOfAddedAlbums"></article>
+                    <article id="totalShippingOfAddedAlbums"></article>
+                    <section>
+
+                        <button onclick="closeMenu()">
+                            Stäng
+                        </button>
+                        <button onclick="betala">
+                            Till Kassan
+                        </button>
+                    </section>
+                </section>
+            </div>
+        </div>
+    </section>
+
+</header>
+
+<nav id="nav">
+</nav>
+<main>
+    <section class="album">
+
+        <section>
+            <article></article>
+        </section>
+        <section>
+            <article>
+                <h1>Eminem</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aut delectus dolores
+                    error, hic id itaque minus nam nulla placeat Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Aperiam aut delectus dolores
+                    error, hic id itaque minus nam nulla placeatLorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Aperiam aut delectus dolores
+                    error, hic id itaque minus nam nulla placeat</p>
+                <section id="allAlbums"></section>
+            </article>
+        </section>
+
+
+    </section>
+</main>
+
+<script src="js/nav.js"></script>
+<script src="js/albums.js"></script>
+<script src="js/cart.js"></script>
+</body>
+</html>

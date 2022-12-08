@@ -1,0 +1,143 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	
++++ b/index.html	(date 1635167757034)
+@@ -8,40 +8,31 @@
+ </head>
+ <body>
+ 
+-
+ <header>
++    <div className="container">
+ 
+-    <div class="container">
+-
+-        <section class="grid-item1">Max & Dan</section>
+-        <section class="grid-item2">
++        <section className="grid-item1">Max & Dan</section>
++        <section className="grid-item2">
+             <label id="search">Sök:<input typ='text' value="Sök"></label>
+         </section>
+ 
+ 
+-
+-
+-            <div class="dropdown">
+-                <button class="dropdown-button" onclick="openMenu()">
+-                    Kundkorg
+-                </button>
+-                <div id="dropdown" class="dropdown-content">
+-                    <a href="#">Kort betalning</a>
++        <div className="dropdown">
++            <button className="dropdown-button" onClick="openMenu()">
++                Kundkorg
++            </button>
++            <div id="dropdown" className="dropdown-content">
++                <a href="#">Kort betalning</a>
+ 
+-                    <section class="grid-item1"></section>
++                <section className="grid-item3"></section>
+ 
+-                    <button onclick="closeMenu()">
+-                        Stäng Kundkorg
+-                    </button>
+-                </div>
+-            </div>
+-
+-
+-
++                <button onClick="closeMenu()">
++                    Stäng Kundkorg
++                </button>
++            </div>
++        </div>
+     </div>
+-
+ </header>
+-
+ <nav class="flex-container">
+     <ul>
+         <li>Våra album</li>
+@@ -52,8 +43,9 @@
+         <li>Erbjudande</li>
+     </ul>
+ </nav>
++
+ <main>
+-    <div class="grid-container">
++    <div className="grid-container">
+         <section>
+             <p>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+@@ -67,56 +59,56 @@
+                 Accusantium aspernatur at, cum harum id iure nihil obcaecati quia sapiente voluptas.
+             </p>
+         </section>
+-        <section class="album">
++        <section className="album">
+             <article><img src="img/Skärmbild 2021-10-23 152138.png"/>
+                 <p>Revival</p>
+                 <p>99:-</p>
+-                <button onclick="">Köp</button>
++                <button onClick="">Köp</button>
+             </article>
+             <article><img src="img/Skärmbild 2021-10-23 152109.png"/>
+                 <p>Relapse</p>
+                 <p>99:-</p>
+-                <button onclick="">Köp</button>
++                <button onClick="">Köp</button>
+             </article>
+             <article><img src="img/Skärmbild 2021-10-23 152045.png"/>
+                 <p>Music To Be Murdered By</p>
+                 <p>99:-</p>
+-                <button onclick="">Köp</button>
++                <button onClick="">Köp</button>
+             </article>
+             <article><img src="img/Skärmbild 2021-10-23 152019.png"/>
+                 <p>Kamikaze</p>
+                 <p>99:-</p>
+-                <button onclick="">Köp</button>
++                <button onClick="">Köp</button>
+             </article>
+             <article><img src="img/Skärmbild 2021-10-23 151952.png"/>
+                 <p>Encore</p>
+                 <p>99:-</p>
+-                <button onclick="">Köp</button>
++                <button onClick="">Köp</button>
+             </article>
+             <article><img src="img/Skärmbild 2021-10-23 151924.png"/>
+                 <p>Curtain Call</p>
+                 <p>99:-</p>
+-                <button onclick="">Köp</button>
++                <button onClick="">Köp</button>
+             </article>
+             <article><img src="img/Skärmbild 2021-10-23 151843.png"/>
+                 <p>The Eminem Show</p>
+                 <p>99:-</p>
+-                <button onclick="">Köp</button>
++                <button onClick="">Köp</button>
+             </article>
+             <article><img src="img/Skärmbild 2021-10-23 151722.png"/>
+                 <p>Recovery</p>
+                 <p>99:-</p>
+-                <button onclick="">Köp</button>
++                <button onClick="">Köp</button>
+             </article>
+             <article><img src="img/Skärmbild 2021-10-23 151625.png"/>
+                 <p>The Marshall Mathers LP</p>
+                 <p>99:-</p>
+-                <button onclick="">Köp</button>
++                <button onClick="">Köp</button>
+             </article>
+             <article><img src="img/Skärmbild 2021-10-23 164100.png"/>
+                 <p>The Marshall Mathers LP 2</p>
+                 <p>99:-</p>
+-                <button onclick="">Köp</button>
++                <button onClick="">Köp</button>
+             </article>
+         </section>
+     </div>
