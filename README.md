@@ -1,5 +1,5 @@
 # WebShop-JS
-Frontend Webshop Ja
+Frontend Webshop 
 
 At the beginning of my education as a web developer, we carried out this project.
 
